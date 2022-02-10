@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpot" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="icono" style="text-align: center;">
+        <img width="200" height="200" style="" src="./images/alexandra.jpg" alt="Imagen Alexandra Daddario">
+    </div>
+
+    <form action="">
+        <div class="pregunta">
+            <label for="">Tipo de documento</label><br>
+            <select name="" id="">
+                <option value="">Seleccionar</option>
+                <option value="">Cédula</option>
+                <option value="">Tarjeta de identidad</option>
+                <option value="">Pasaporte</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <label for="">Nombre completo</label><br>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <label for="">Correo</label><br>
+            <input type="text">
+        </div>
+
+        <div class="pregunta">
+            <label for="">Vacante a la que quiere aplicar</label><br>
+            <select name="" id="">
+                <option value="">Seleccionar</option>
+                <option value="">Python Programmer</option>
+                <option value="">Data scientist</option>
+                <option value="">Backend developer</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <label for="">Salario actual</label><br>
+            <input type="range">
+        </div>
+
+        <div class="pregunta">
+            <label for="">Fecha en la que puede entrar</label><br>
+            <input type="date">
+        </div>
+
+        <div class="pregunta">
+            <label for="">Anexar hoja de vida (PDF)</label><br>
+            <input type="file">
+        </div>
+
+        <div class="pregunta">
+            <label for="">Desea recibir ofertas de otras vacantes</label><br>
+            <input type="checkbox">
+        </div>
+
+        <hr>
+        
+        <div class="pregunta">
+            <label for="">Describe tu experiencia</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        </div>
+
+        <button id="aplicar">Aplicar a vacante</button>
+    </form>
+    <style>
+        .pregunta {
+            width: 45%;
+            border: 1px;
+            float: left;
+            overflow: visible;
+        }
+        #aplicar {
+            text-align: center;
+        }
+    </style>
+</body>
+</html>

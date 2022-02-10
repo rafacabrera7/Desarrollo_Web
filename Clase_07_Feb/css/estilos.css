@@ -1,0 +1,9 @@
+form label.labform {
+    color:blue;
+}
+#vacante .inputs{
+    border: 2px rgb(66, 102, 30);
+}
+tr {
+    text-align: center;
+}
