@@ -1,0 +1,26 @@
+.loading {
+    margin-top: 50px;
+}
+
+.cuadro {
+    background-color: rgb(34, 30, 54);
+    height: 100px;
+    margin: 4%;
+}
+
+.castor {
+    background-image: url('../images/castor.png');
+    background-size: cover;
+}
+
+.game {
+    background-image: url('../images/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.score-contenedor span {
+    color: coral;
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,121 @@
+#indexpage{
+    display: block;
+    position: absolute;
+    padding: auto;
+}
+
+#gamepage{
+    display: none;
+    position: absolute;
+    padding: auto;
+}
+
+.title{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    height: auto;
+    width: auto;
+    font-size: 100px;
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .enter-name{
+      display: block;
+      margin: auto;
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.image{
+    display: inline-block;
+    margin-left: 200px;
+    border: 2px solid black;
+    width: 416px;
+    height: 470px;
+}
+
+.letters{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+}
+
+.input-word{
+    display: inline-block;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+
+    text-align: center;
+    font-size: 30px;
+
+    border: 2px solid black;
+
+    margin-bottom: 50px;
+}
+
+.current-game{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 30px;
+
+}
+
+#gameover{
+    display: none;
+    width: 40%;
+    height: 34%;
+    background-color: rgba(148, 148, 148, 0.712);
+    position: absolute;
+    left: 30%;
+    top: 33%;
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+#goAlert{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.results{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}

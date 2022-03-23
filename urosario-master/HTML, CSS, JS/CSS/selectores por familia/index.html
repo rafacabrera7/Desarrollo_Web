@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+p a {
+  background-color: yellow;
+}
+
+p > a {
+  background-color: blue;
+}
+
+p ~ a {
+  background-color: red;
+}
+
+p + a {
+  background-color: green;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Selector por familia o decendientes</h2>
+
+<div>
+  <p>
+      <a>link 1 </a>  
+        <a>link 2 </a> 
+        <span>     
+          <a>otro</a>
+        </span> 
+    </p>
+
+  <a>link 3</a>
+
+  <a>link 4</a>
+
+</div>
+
+</body>
+</html>

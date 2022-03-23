@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form action="">
+        <div class="container-fluid">
+            <div class="calculator">
+                <div class="row">
+                    <div class="col">
+                        Calculadora
+                    </div>    
+                </div>
+    
+                <div class="row">
+                    <div class="col">
+                        <div class="display-box" id="box">
+                            Inserte un número
+                        </div>
+                    </div>    
+                </div>
+    
+                <div class="row">
+                    <div class="col-3">
+                        <button onclick="updateBox(7);" type="button" class="btn btn-outline-secondary">7</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="updateBox(8);" type="button" class="btn btn-outline-secondary">8</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="updateBox(9);" type="button" class="btn btn-outline-secondary">9</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="sum();" type="button" class="btn btn-outline-secondary">+</button>
+                    </div>
+    
+                </div>
+    
+                <div class="row">
+                    <div class="col-3">
+                        <button onclick="updateBox(4);" type="button" class="btn btn-outline-secondary">4</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="updateBox(5);" type="button" class="btn btn-outline-secondary">5</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="updateBox(6);" type="button" class="btn btn-outline-secondary">6</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="sub();" type="button" class="btn btn-outline-secondary">-</button>
+                    </div>
+    
+                </div>
+    
+                <div class="row">
+                    <div class="col-3">
+                        <button onclick="updateBox(1);" type="button" class="btn btn-outline-secondary">1</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="updateBox(2);" type="button" class="btn btn-outline-secondary">2</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="updateBox(3);" type="button" class="btn btn-outline-secondary">3</button>
+                    </div>
+    
+                    <div class="col-3">
+                    </div>
+    
+                </div>
+    
+                
+                <div class="row">
+                    <div class="col-3">
+                        <button onclick="updateBox(0);" type="button" class="btn btn-outline-secondary">0</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="addPoint();" type="button" class="btn btn-outline-secondary">.</button>
+                    </div>
+    
+                    <div class="col-3">
+                        <button onclick="equal();" type="button" class="btn btn-primary">=</button>
+                    </div>
+    
+                    <div class="col-3">
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+
+        <span id="typing" style="display: none;">0</span>
+        <span id="summing" style="display: none;">0</span>
+        <span id="subtracting" style="display: none;">0</span>
+        <span id="sumFirstItem" style="display: none;">--</span>
+        <span id="sumSecondItem" style="display: none;">--</span>
+        <span id="subtrFirstItem" style="display: none;">--</span>
+        <span id="subtrSecondItem" style="display: none;">--</span>
+    </form>
+
+</body>
+</html>

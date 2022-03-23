@@ -1,0 +1,42 @@
+.colorred{
+    color: red;
+}
+
+.colorgreen{
+    color: green;
+}
+
+.fondogray{
+    background-color: grey;
+    background-image: url(../images/icono.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 200px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fondoblue{
+    background-color: blue;
+    padding: 20px 20px 20px 20px;
+    border: solid 10px indigo;
+
+    margin: 10px 10px;
+
+    display: inline;
+}
+
+.noborder {
+    border:none;
+}
+
+.item {
+    display: inline;
+    padding-left: 6px;
+    background: red;
+}
